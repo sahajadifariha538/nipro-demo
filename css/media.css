@@ -1,0 +1,136 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {  
+/*header*/
+header {
+    padding: 0 0;
+}
+.menu ul li a{
+	padding: 10px 0 0 !important;
+}
+.logo {
+    font-size: 20px;
+}
+/*slider*/
+.slider {
+    padding: 15px 0 0;
+    text-align: center;
+    background-size:  320px 260px;
+}
+.b-text {
+    padding-top: 5px;
+    padding-left: 0;
+}
+.b-text h1 {
+    font-size: 27px;
+}
+.b-text p {
+    padding: 5px 0 30px 0 !important;
+    margin: 0 !important;
+    font-size: 14px;
+    line-height: 22px;
+}
+.btn-learn {
+    padding: 3px 4px 3px 4px;
+    margin-bottom: 12px;
+}
+.btn {
+	font-size: x-small !important;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header*/
+header {
+    padding: 0px 50px;
+}
+.menu ul li a{
+	padding: 10px 0 0 !important;
+}
+.logo {
+    font-size: 25px;
+}
+/*slider*/
+.slider {
+    padding: 0;
+    text-align: center;
+    background-size:  600px 400px;
+}
+.b-text {
+    padding-top: 25px;
+    padding-left: 0;
+}
+.b-text h1 {
+    font-size: 40px;
+}
+.b-text p {
+    padding: 0 25px 0 25px;
+    margin: 18px 0 30px !important;
+    font-size: 14px
+    line-height: 26px;
+}
+.btn-learn {
+    margin-bottom: 85px;
+}
+.b_c_btn {
+    padding-left: 0px;
+}
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header*/
+header {
+    padding: 0px 55px;
+}
+.menu ul li a{
+	padding: 10px 0 0 !important;
+}
+.logo {
+    font-size: 25px;
+}
+/*slider*/
+.slider {
+    padding: 140px 0 0;
+    text-align: center;
+}
+.b-text {
+    padding-left: 0px;
+}
+.b-text h1 {
+    font-size: 50px;
+}
+.b-text p {
+    padding: 20 25px 50px 25px !important;
+    margin: 18px 0 30px ;
+    line-height: 28px;
+}
+.b_c_btn {
+    padding-left: 0;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*slider*/
+.b-text h1 {
+    font-size: 45px;
+}
+.b-text p {
+    font-size: 14px;
+    padding: 0px 0px 0 0;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {  
+/*slider*/
+.b-text h1 {
+    font-size: 54px;
+}
+.b-text p{
+	padding: 0;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1440px) { ... }
